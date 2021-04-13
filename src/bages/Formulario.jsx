@@ -2,10 +2,13 @@ import React from "react";
 
 class Formulario extends React.Component {
 	handleChange = (e) => {
-		console.log({ value: e.target.value });
-	};
-	handleClick = (e) => {
-		console.log("hola botocito");
+		// 	console.log({ value: e.target.value });
+		// };
+		// handleClick = (e) => {
+		// 	console.log("hola botocito");
+		this.setState({
+			[e.target.name]: e.target.value,
+		});
 	};
 	render() {
 		return (
@@ -29,7 +32,7 @@ class Formulario extends React.Component {
 									onChange={this.handleChange}
 									className="form-control"
 									type="text"
-									name="firstName"
+									name="firstSurname"
 								/>
 							</div>
 							<div className="form-group">
@@ -37,9 +40,45 @@ class Formulario extends React.Component {
 								<input
 									onChange={this.handleChange}
 									className="form-control"
-									type="text"
-									name="firstName"
+									type="email"
+									name="email"
 								/>
+							</div>
+							<div className="form-group">
+								<label htmlFor="">Contrasena</label>
+								<input
+									onChange={this.handleChange}
+									className="form-control"
+									type="text"
+									name="Contrasena"
+								/>
+							</div>
+							<div className="form-group">
+								<label htmlFor="">Confima Contrasena</label>
+								<input
+									onChange={this.handleChange}
+									className="form-control"
+									type="text"
+									name="confimaContrasena"
+								/>
+							</div>
+							<div className="form-check mt-3">
+								<input
+									className="form-check-input"
+									type="checkbox"
+									name="política"
+								/>
+								<label>
+									Acepto política y tratamiento de mis datos *
+								</label>
+							</div>
+							<div className="form-check">
+								<input
+									className="form-check-input"
+									type="checkbox"
+									name="recibir"
+								/>
+								<label>Deseo recibir ofertas por e-mail</label>
 							</div>
 							<button
 								type="button"
