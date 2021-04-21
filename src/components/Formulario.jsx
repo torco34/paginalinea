@@ -42,7 +42,7 @@ class Formulario extends React.Component {
 									onChange={this.props.onChange}
 									className="form-control"
 									type="text"
-									name="FirstSurname"
+									name="firstSurname"
 									value={this.props.formValues.FirstSurname}
 								/>
 							</div>
@@ -52,8 +52,8 @@ class Formulario extends React.Component {
 									onChange={this.props.onChange}
 									className="form-control"
 									type="text"
-									name="Email"
-									value={this.props.formValues.Email}
+									name="email"
+									value={this.props.formValues.email}
 								/>
 							</div>
 							<div className="form-group">
@@ -62,8 +62,8 @@ class Formulario extends React.Component {
 									onChange={this.props.onChange}
 									className="form-control"
 									type="text"
-									name="Contrasena"
-									value={this.props.formValues.Contrasena}
+									name="contrasena"
+									value={this.props.formValues.contrasena}
 								/>
 							</div>
 							<div className="form-group">
@@ -72,9 +72,9 @@ class Formulario extends React.Component {
 									onChange={this.props.onChange}
 									className="form-control"
 									type="text"
-									name="ConfimaContrasena"
+									name="confimaContrasena"
 									value={
-										this.props.formValues.ConfimaContrasena
+										this.props.formValues.confimaContrasena
 									}
 								/>
 							</div>

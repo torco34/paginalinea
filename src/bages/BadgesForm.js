@@ -29,8 +29,13 @@ class BadgesForm extends React.Component {
 				<div className="row">
 					<div className="col-6">
 						<Carrito
-							firstName={this.state.form.nombre}
-							FirstSurname={this.state.form.FirstSurname}
+							firstName={this.state.form.firstName}
+							firstSurname={this.state.form.firstSurname}
+							email={this.state.form.email}
+							contrasena={this.state.form.contrasena}
+							confimaContrasena={
+								this.state.form.confimaContrasena
+							}
 						/>
 					</div>
 					<div className="col-6">
