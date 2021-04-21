@@ -1,13 +1,6 @@
 import React from "react";
 
 class Carrito extends React.Component {
-	state = { form: {} };
-
-	handleChange = (e) => {
-		this.setState({
-			[e.target.name]: e.target.value,
-		});
-	};
 	render() {
 		return (
 			<div className="text-center card">

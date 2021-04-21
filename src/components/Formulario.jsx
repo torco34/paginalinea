@@ -1,5 +1,5 @@
 import React from "react";
-// import Carrito from "../components/Carrito";
+import Carrito from "../components/Carrito";
 class Formulario extends React.Component {
 	state = {};
 
@@ -9,6 +9,10 @@ class Formulario extends React.Component {
 			[e.target.name]: e.target.value,
 		});
 	};
+	handleClick = (e) => {
+		console.log("estamos listo");
+	};
+
 	handleSubmit = (e) => {
 		e.preventDefault();
 		console.log("este es un sumit");
@@ -25,51 +29,53 @@ class Formulario extends React.Component {
 							<div className="form-group">
 								<label htmlFor=""> Nombre</label>
 								<input
-									onChange={this.handleChange}
+									onChange={this.props.onChange}
 									className="form-control"
 									type="text"
 									name="firstName"
-									value={this.state.firstName}
+									value={this.props.formValues.firstName}
 								/>
 							</div>
 							<div className="form-group">
 								<label htmlFor="">Apellido</label>
 								<input
-									onChange={this.handleChange}
+									onChange={this.props.onChange}
 									className="form-control"
 									type="text"
 									name="firstSurname"
-									value={this.state.firstSurname}
+									value={this.props.formValues.firstSurname}
 								/>
 							</div>
 							<div className="form-group">
 								<label htmlFor="">Email</label>
 								<input
-									onChange={this.handleChange}
+									onChange={this.props.onChange}
 									className="form-control"
-									type=""
+									type="text"
 									name="email"
-									value={this.state.email}
+									value={this.props.formValues.email}
 								/>
 							</div>
 							<div className="form-group">
 								<label htmlFor="">Contrasena</label>
 								<input
-									onChange={this.handleChange}
+									onChange={this.props.onChange}
 									className="form-control"
 									type="text"
 									name="Contrasena"
-									value={this.Contrasena}
+									value={this.props.formValues.contrasena}
 								/>
 							</div>
 							<div className="form-group">
 								<label htmlFor="">Confima Contrasena</label>
 								<input
-									onChange={this.handleChange}
+									onChange={this.props.onChange}
 									className="form-control"
 									type="text"
 									name="confimaContrasena"
-									value={this.confimaContrasena}
+									value={
+										this.props.formValues.confimaContrasena
+									}
 								/>
 							</div>
 

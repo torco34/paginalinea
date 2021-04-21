@@ -1,6 +1,6 @@
 // import Header from "./components/Header";
-// import BadgesForm from "./bages/BadgesForm";<BadgesForm />
-import BadgesNew from "./bages/BadgesNew";
+import BadgesForm from "./bages/BadgesForm";
+// import BadgesNew from "./bages/BadgesNew";
 // import Formulario from "./components/Formulario";
 
 // import Carrito from "./components/Carrito";
@@ -12,7 +12,7 @@ function App() {
 			<div className="containe">
 				<div className="row">
 					<div className="col-12">
-						<BadgesNew />
+						<BadgesForm />
 					</div>
 				</div>
 			</div>
