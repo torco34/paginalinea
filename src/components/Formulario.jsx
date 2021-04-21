@@ -1,7 +1,7 @@
 import React from "react";
 import Carrito from "../components/Carrito";
 class Formulario extends React.Component {
-	state = {};
+	// state = {};
 
 	handleChange = (e) => {
 		// console.log({ name: e.target.name, value: e.target.value });
@@ -14,7 +14,7 @@ class Formulario extends React.Component {
 	};
 
 	handleSubmit = (e) => {
-		e.preventDefault();
+		// e.preventDefault();
 		console.log("este es un sumit");
 		console.log(this.state);
 	};
@@ -33,7 +33,7 @@ class Formulario extends React.Component {
 									className="form-control"
 									type="text"
 									name="firstName"
-									value={this.props.formValues.firstName}
+									value={this.props.formValues.FirstName}
 								/>
 							</div>
 							<div className="form-group">
@@ -42,8 +42,8 @@ class Formulario extends React.Component {
 									onChange={this.props.onChange}
 									className="form-control"
 									type="text"
-									name="firstSurname"
-									value={this.props.formValues.firstSurname}
+									name="FirstSurname"
+									value={this.props.formValues.FirstSurname}
 								/>
 							</div>
 							<div className="form-group">
@@ -52,8 +52,8 @@ class Formulario extends React.Component {
 									onChange={this.props.onChange}
 									className="form-control"
 									type="text"
-									name="email"
-									value={this.props.formValues.email}
+									name="Email"
+									value={this.props.formValues.Email}
 								/>
 							</div>
 							<div className="form-group">
@@ -63,7 +63,7 @@ class Formulario extends React.Component {
 									className="form-control"
 									type="text"
 									name="Contrasena"
-									value={this.props.formValues.contrasena}
+									value={this.props.formValues.Contrasena}
 								/>
 							</div>
 							<div className="form-group">
@@ -72,9 +72,9 @@ class Formulario extends React.Component {
 									onChange={this.props.onChange}
 									className="form-control"
 									type="text"
-									name="confimaContrasena"
+									name="ConfimaContrasena"
 									value={
-										this.props.formValues.confimaContrasena
+										this.props.formValues.ConfimaContrasena
 									}
 								/>
 							</div>

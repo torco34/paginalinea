@@ -9,15 +9,17 @@ class BadgesForm extends React.Component {
 			firstName: "",
 			firstSurname: "",
 			email: "",
-			Contrasena: "",
+			contrasena: "",
 			confimaContrasena: "",
 		},
 	};
 
 	handleChange = (e) => {
 		this.setState({
-			...this.state.form,
-			[e.target.name]: e.target.value,
+			form: {
+				...this.state.form,
+				[e.target.name]: e.target.value,
+			},
 		});
 	};
 	render() {
@@ -26,7 +28,10 @@ class BadgesForm extends React.Component {
 				<Header />
 				<div className="row">
 					<div className="col-6">
-						<Carrito />
+						<Carrito
+							firstName={this.state.form.nombre}
+							FirstSurname={this.state.form.FirstSurname}
+						/>
 					</div>
 					<div className="col-6">
 						<Formulario

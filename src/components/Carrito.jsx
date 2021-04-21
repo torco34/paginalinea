@@ -5,7 +5,7 @@ class Carrito extends React.Component {
 		return (
 			<div className="text-center card">
 				<h1 className="bg-dark text-light">carrito</h1>
-				<h2>Torcoroma</h2>
+				<h2>{this.props.nombre}</h2>
 				<h3>Arias</h3>
 			</div>
 		);
