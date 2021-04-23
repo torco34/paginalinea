@@ -1,5 +1,6 @@
-import React, { Fragment } from "react";
+import React from "react";
 import Navbar from "./Navbar";
+import { Link } from "react-router-dom";
 import "../assets/estyle/Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAlignJustify } from "@fortawesome/free-solid-svg-icons";
@@ -18,11 +19,15 @@ const Header = () => {
 			<div className="">
 				<div className="row  ">
 					<div className="col-md-2  cajaPadre">
-						<div>
+						<Link to="/Bages/new" className="btn btn-dark ">
+							<FontAwesomeIcon icon={faAlignJustify} />
+						</Link>
+						{/*	<div>
+						
 							<button className="btn btn-dark  ">
-								<FontAwesomeIcon icon={faAlignJustify} />
+								
 							</button>
-						</div>
+						</div>*/}
 						<div className="lista_navbar">
 							<ul>
 								<li>

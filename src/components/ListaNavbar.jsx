@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/Navbar.css";
 // import buton from "../assets/img/lupa.jpg";
+
 // import carrito from "../assets/img/carritos.png";
 class ListaNavbar extends React.Component {
 	render() {
