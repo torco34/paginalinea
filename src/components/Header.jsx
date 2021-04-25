@@ -2,7 +2,7 @@ import React from "react";
 import LogoBuscaCarriSesi from "./LogoBuscaCarriSesi";
 import Menu from "./Menu";
 import { Link } from "react-router-dom";
-import "../assets/estyle/Header.css";
+import "../assets/estyle/components/Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAlignJustify } from "@fortawesome/free-solid-svg-icons";
 import { faTruck } from "@fortawesome/free-solid-svg-icons";
@@ -18,7 +18,7 @@ const Header = () => {
 				sesion="Iniciar Sesion"
 			/>
 
-			<div className="  ">
+			<React.Fragment>
 				<div className="row">
 					<div className="col-md-2   ">
 						<Link to="/Bages/new" className="btn btn-dark botones ">
@@ -43,7 +43,7 @@ const Header = () => {
 						</ul>
 					</div>
 				</div>
-			</div>
+			</React.Fragment>
 			<Menu />
 		</div>
 	);

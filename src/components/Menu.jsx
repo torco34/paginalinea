@@ -4,7 +4,7 @@ import "../assets/estyle/components/Menu.css";
 class Menu extends React.Component {
 	render() {
 		return (
-			<div className="">
+			<React.Fragment>
 				<div className="row">
 					<div className="col-md-3 lista_navbar">
 						<ul>
@@ -37,7 +37,7 @@ class Menu extends React.Component {
 						</ul>
 					</div>
 				</div>
-			</div>
+			</React.Fragment>
 		);
 	}
 }

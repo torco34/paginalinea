@@ -3,10 +3,10 @@ import Header from "../components/Header";
 const Leyout = (props) => {
 	// const children = props.children
 	return (
-		<div>
+		<React.Fragment>
 			<Header />
 			{props.children}
-		</div>
+		</React.Fragment>
 	);
 };
 
