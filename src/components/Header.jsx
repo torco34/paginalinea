@@ -1,5 +1,6 @@
 import React from "react";
-import Navbar from "./Navbar";
+import LogoBuscaCarriSesi from "./LogoBuscaCarriSesi";
+import Menu from "./Menu";
 import { Link } from "react-router-dom";
 import "../assets/estyle/Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,55 +11,21 @@ import { faCalendarDay } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
 	return (
-		<div className="">
-			<Navbar
-				comprar="COMPRAR "
-				linea="EN LINEA"
-				formulario="Iniciar Sesion"
+		<div className=" container  cajaPadre ">
+			<LogoBuscaCarriSesi
+				logoPart1="COMPRAR "
+				logoPart2="EN LINEA"
+				sesion="Iniciar Sesion"
 			/>
-			<div className="">
-				<div className="row  ">
-					<div className="col-md-2  cajaPadre">
-						<Link to="/Bages/new" className="btn btn-dark ">
+
+			<div className="  ">
+				<div className="row">
+					<div className="col-md-2   ">
+						<Link to="/Bages/new" className="btn btn-dark botones ">
 							<FontAwesomeIcon icon={faAlignJustify} />
 						</Link>
-						{/*	<div>
-						
-							<button className="btn btn-dark  ">
-								
-							</button>
-						</div>*/}
-						<div className="lista_navbar">
-							<ul>
-								<li>
-									<a className="active " href="/">
-										Home
-									</a>
-								</li>
-								<li>
-									<a className="" href="/">
-										Blusas
-									</a>
-								</li>
-								<li>
-									<a className="" href="/">
-										Vestido
-									</a>
-								</li>
-								<li>
-									<a className=" " href="/">
-										Zapatos
-									</a>
-								</li>
-								<li>
-									<a href="/">Camiza</a>
-								</li>
-								<li>
-									<a href="/">Bolsos</a>
-								</li>
-							</ul>
-						</div>
 					</div>
+
 					<div className="col-md-10  listaDeInfomacion">
 						<ul>
 							<li>
@@ -77,6 +44,7 @@ const Header = () => {
 					</div>
 				</div>
 			</div>
+			<Menu />
 		</div>
 	);
 };

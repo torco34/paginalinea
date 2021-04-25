@@ -2,10 +2,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 10px;
 	height: 10vh;
 	font-size: 17px;
-	padding: 40px;
 }
 .parrafo_logo {
 	background: #333;
