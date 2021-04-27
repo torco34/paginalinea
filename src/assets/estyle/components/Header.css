@@ -7,12 +7,14 @@
 	margin-left: 35px;
 	height: 17vh;
 	/*display: none;*/
+	/*top: 0;*/
+	/*border: solid 1px red;*/
 }
 
 .botones {
 	position: fixed;
 	z-index: 99999;
-	/*border: solid 1px red;*/
+
 	/*top: 0px;*/
 }
 
@@ -26,7 +28,7 @@
 .listaDeInfomacion ul li {
 	text-decoration: none;
 	list-style: none;
-	margin: 15px;
+	margin: 10px;
 	padding-left: 19px;
 	/*border: solid 3px blue;*/
 }
@@ -34,6 +36,6 @@
 	text-decoration: none;
 	list-style: none;
 	color: #000;
-	padding-left: 9px;
+	padding-left: 8px;
 	/*border: solid 3px green;*/
 }
