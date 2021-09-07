@@ -11,6 +11,7 @@ import Videos from "../containers/Videos";
 
 import Contenedor from "../components/Contenedor";
 import Header from "../components/Header";
+import Generos from "../components/Generos";
 
 const App = () => {
 	return (
@@ -27,7 +28,9 @@ const App = () => {
 					<Route path="/video">
 						<Videos />
 					</Route>
-					<Route path="/genero">solo generos</Route>
+					<Route path="/genero">
+						<Generos />
+					</Route>
 
 					<Route path="/">
 						<Contenedor />

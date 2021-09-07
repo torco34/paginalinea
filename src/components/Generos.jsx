@@ -1,12 +1,12 @@
 import React from "react";
-import "../assets/estyle/components/Videos.css";
+import "../assets/estyle/components/Generos.css";
 
 // import Navbar from "../components/Navbar";
-function Video() {
+function Generos() {
 	// const children = props.children;
 	return (
-		<div className="videos">
-			<div>
+		<div className="Generos">
+			<div className="generoMusical">
 				<p>
 					Bienvenido a qui podras encontrar toda clases de videos
 					musicales
@@ -16,4 +16,4 @@ function Video() {
 	);
 }
 
-export default Video;
+export default Generos;
