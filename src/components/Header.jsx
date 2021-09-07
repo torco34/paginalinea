@@ -1,31 +1,20 @@
 import React from "react";
 import "../assets/estyle/components/Header.css";
-// import Navbar from "../components/Navbar";
+import Logo from "../components/Logo";
+import Buscador from "../components/Buscador";
 function Header() {
-	// const children = props.children;
+	// const children = props.children; COMBIAR HEADER TOTALMENT
 	return (
 		<div>
 			<div className="header">
-				<span>mi cancion</span>
-				<div className="lista">
-					<ul>
-						<li>
-							<a href="#">NOVEDADE</a>
-						</li>{" "}
-						<li>
-							<a href="#">LISTA</a>
-						</li>{" "}
-						<li>
-							<a href="#">BLOC</a>
-						</li>{" "}
-						<li>
-							<a href="#">INICIAR SECTION</a>
-						</li>{" "}
-						<li>
-							<a href="#">REGISTARCE</a>
-						</li>{" "}
-					</ul>
+				<div class="">
+					<Logo />
 				</div>
+				<div>
+					<Buscador />
+				</div>
+
+				<div>iniciar section</div>
 			</div>
 		</div>
 	);
