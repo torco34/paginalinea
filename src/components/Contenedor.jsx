@@ -5,10 +5,12 @@ import Buscador from "./Buscador";
 function Contenedo() {
 	// const children = props.children;
 	return (
-		<div>
-			<div className="contenedor">
+		<div className="contenedor">
+			<div>
+				<p>
+					Bienveido a mi sitio web aqui encontrara todo tipo de musica
+				</p>
 				<h2>EL PORTA DE LA MUSICA</h2>
-				<Buscador />
 			</div>
 		</div>
 	);
