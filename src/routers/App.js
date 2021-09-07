@@ -7,7 +7,7 @@ import {
 	useParam,
 } from "react-router-dom";
 // import Home from "../containers/Home";
-// import Header from "../components/Header";
+import Videos from "../containers/Videos";
 
 import Contenedor from "../components/Contenedor";
 import Header from "../components/Header";
@@ -25,7 +25,7 @@ const App = () => {
 				</div>
 				<Switch>
 					<Route path="/video">
-						<p>Aqui solo videos de mi musica</p>
+						<Videos />
 					</Route>
 					<Route path="/genero">solo generos</Route>
 

@@ -2,18 +2,14 @@
 	background: #251508;
 	color: #fff;
 	height: 3em;
-	/*padding: 20px;*/
 	grid-gap: 20px;
 	display: flex;
 	justify-content: center;
-	border: solid 1px red;
 	grid-template-columns: repeat(3, 100%);
 }
 .header div {
 	width: 100%;
-	border: solid 1px red;
 	align-items: center;
 	display: grid;
 	justify-content: center;
-	/*grid-template-columns: repeat(auto-fill, 100%);*/
 }
