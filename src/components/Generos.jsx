@@ -7,7 +7,9 @@ function Generos() {
 	return (
 		<div className="Generos">
 			<div className="generoMusical">
-				<p>Encuentra el genero de tu gusto</p>
+				<p>
+					Encuentra el genero de tu gusto aqui en tu PORTAL DE MUSICA
+				</p>
 			</div>
 		</div>
 	);

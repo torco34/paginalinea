@@ -1,10 +1,12 @@
 import React from "react";
 import Contenedor from "../components/Contenedor";
-import "../assets/estyle/components/Link.css";
+
 const Home = () => {
+	const [numero, setNumero] = React.useState(0);
+	console.log(`${numero}`);
 	return (
 		<div>
-			<Contenedor />;
+			<Contenedor />
 		</div>
 	);
 };
