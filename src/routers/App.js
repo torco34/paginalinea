@@ -31,7 +31,6 @@ const App = () => {
 					<Route path="/genero">
 						<Generos />
 					</Route>
-
 					<Route path="/">
 						<Contenedor />
 					</Route>

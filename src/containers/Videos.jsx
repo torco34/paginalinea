@@ -5,29 +5,29 @@ import "../assets/estyle/components/Videos.css";
 function Video() {
 	const [equipo, setEquipo] = React.useState([]);
 	React.useEffect(() => {
-		console.log(obtenerDatos());
+		console.log(equipo, "Aqui va el []");
+		console.log(obtenerDatos(), "Aqui api");
 		obtenerDatos();
+		console.log(obtenerDatos(), "informacion de la API prom");
 	}, []);
 	const obtenerDatos = async () => {
 		const data = await fetch(
-			"https://rickandmortyapi.com/api/character/?page=19"
+			" https://rickandmortyapi.com/api/character/?page=19"
 		);
 		const users = await data.json();
-		console.log(users);
+		console.log(users, "informcion de API");
+
 		setEquipo(users);
 	};
 	return (
 		<div className="videos">
 			<div>
-				<p>
-					Bienvenido a qui podras encontrar toda clases de videos
-					musicales
-				</p>
-				<ul>
-					{/*	{equipo.map((item => (
-						<li key="item.id">{item.name}</li>
-					))}*/}
-				</ul>
+				<p>Nuestro</p>
+				{/*<ul>
+					{equipo.map((item) => (
+						<li key={item.id}>{item.name}</li>
+					))}
+				</ul>*/}
 			</div>
 		</div>
 	);
