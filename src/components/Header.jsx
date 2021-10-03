@@ -2,20 +2,16 @@ import React from "react";
 import "../assets/estyle/components/Header.css";
 import Logo from "../components/Logo";
 import Buscador from "../components/Buscador";
+
 function Header() {
 	// const children = props.children; COMBIAR HEADER TOTALMENT
 	return (
-		<div>
-			<div className="header">
-				<div>
-					<Logo />
-				</div>
-				<div>
-					<Buscador />
-				</div>
+		<div className="header">
+			<Logo />
 
-				<div>iniciar section</div>
-			</div>
+			<Buscador />
+
+			<div>iniciar section</div>
 		</div>
 	);
 }

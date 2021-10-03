@@ -1,15 +1,15 @@
 .header {
-	background: #251508;
-	color: #fff;
-	height: 3em;
+	/*background-image: linear-gradient(#d35400, #f5cba7);*/
+	display: grid;
+	grid-template-areas: "header header header header";
+
+	grid-template-columns: 1fr 5fr;
 	grid-gap: 20px;
-	display: flex;
-	justify-content: center;
-	grid-template-columns: repeat(3, 100%);
 }
+
 .header div {
-	width: 100%;
 	align-items: center;
 	display: grid;
+	/*border: solid 2px #fff;*/
 	justify-content: center;
 }
