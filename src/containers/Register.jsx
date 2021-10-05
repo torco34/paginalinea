@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/estyle/components/Register.css";
+import { Link } from "react-router-dom";
 const Register = () => {
 	return (
 		<div>
@@ -24,7 +25,7 @@ const Register = () => {
 						/>
 						<button className="button">Registrarme</button>
 					</form>
-					<a href="">Iniciar sesión</a>
+					<Link to="/register">registrase</Link>
 				</section>
 			</section>
 		</div>

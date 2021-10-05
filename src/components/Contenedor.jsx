@@ -6,9 +6,12 @@ import mujer from "../assets/img/mujer.jpeg";
 function Contenedor() {
 	return (
 		<div className="contenedor">
-			<div>
-				<Header />
-			</div>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+				expedita nam, hic modi tenetur harum ipsam animi cumque iure
+				maxime ex, ratione, recusandae. Molestiae repellendus sunt,
+				aperiam officiis, eum reiciendis.
+			</p>
 			<img src={mujer} alt="" />
 		</div>
 	);

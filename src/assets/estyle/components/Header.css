@@ -1,5 +1,5 @@
 .header {
-	/*background-image: linear-gradient(#d35400, #f5cba7);*/
+	/*background-image: linear-gradient(#d35400, #d35400);*/
 	display: grid;
 	grid-template-areas: "header header header header";
 

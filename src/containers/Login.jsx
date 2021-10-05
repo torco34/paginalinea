@@ -1,6 +1,7 @@
 import React from "react";
 import twitterIcon from "../assets/img/twitter-icon.png";
 import googleIcon from "../assets/img/google-icon.png";
+import { Link } from "react-router-dom";
 import "../assets/estyle/components/Login.css";
 const Login = () => {
 	return (
@@ -37,7 +38,8 @@ const Login = () => {
 					</div>
 				</div>
 				<p className="login__container--register">
-					No tienes ninguna cuenta <a href="#">Regístrate</a>
+					No tienes ninguna cuenta
+					<Link to="/register">Regístrate</Link>
 				</p>
 			</div>
 		</div>

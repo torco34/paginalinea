@@ -1,6 +1,6 @@
 import React from "react";
 
-const Fooder = () => {
+const Footer = () => {
 	return (
 		<div>
 			<a href="/">Terminos de uso</a>
@@ -9,4 +9,4 @@ const Fooder = () => {
 		</div>
 	);
 };
-export default Fooder;
+export default Footer;
