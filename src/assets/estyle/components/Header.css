@@ -1,8 +1,7 @@
 .header {
-	/*background-image: linear-gradient(#d35400, #d35400);*/
+	background-image: linear-gradient(#d35400, #d35400);
 	display: grid;
 	grid-template-areas: "header header header header";
-
 	grid-template-columns: 1fr 5fr;
 	grid-gap: 20px;
 }
