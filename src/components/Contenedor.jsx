@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import "../assets/estyle/components/Contenedor.css";
 
 import Generos from "./Generos";

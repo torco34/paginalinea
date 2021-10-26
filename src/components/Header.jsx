@@ -5,12 +5,15 @@ import Buscador from "../components/Buscador";
 import { Link } from "react-router-dom";
 
 function Header() {
-	// const children = props.children; COMBIAR HEADER TOTALMENT
+	const [setTextValue, setEfectiveValue] = React.useState("");
 	return (
 		<div className="header">
 			<Logo />
 
-			<Buscador />
+			<Buscador
+				setTextValue={setTextValue}
+				setEfectiveValue={setEfectiveValue}
+			/>
 			<Link to="/login">
 				<h4>iniciar sesion</h4>
 			</Link>
