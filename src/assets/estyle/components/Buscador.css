@@ -1,0 +1,18 @@
+.input {
+	background: #fff;
+	width: 60vh;
+	outline: none;
+	border-radius: 5px;
+	font-family: "Montserrat";
+
+	justify-content: space-evenly;
+}
+.form {
+	background: #fff;
+	margin-top: 10px;
+	border-radius: 5px;
+	margin-left: 22vh;
+}
+.inco {
+	font-size: 15px;
+}

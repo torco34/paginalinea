@@ -1,10 +1,10 @@
 .login {
-	background-image: linear-gradient(#d35400, #f5cba7);
+	/*background-image: linear-gradient(#d35400, #f5cba7);*/
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-
+	background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 	padding: 0px 30px;
 	min-height: calc(
 		100vh - 200px

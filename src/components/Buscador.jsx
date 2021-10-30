@@ -1,6 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import "../assets/estyle/components/Buscador.css";
 const Buscador = ({ setTextValue, setEfectiveValue }) => {
 	const buscarMusica = (event) => {
 		console.log(event.target.value);
@@ -9,14 +11,14 @@ const Buscador = ({ setTextValue, setEfectiveValue }) => {
 
 	return (
 		<div>
-			<form action="wd" className="bg-light text-dark mt-4 ">
+			<form action="wd" className="form">
 				<input
 					type="text"
-					className="rounded text-dark  "
+					className="input "
 					value={setTextValue}
 					onChange={buscarMusica}
 				/>
-				<FontAwesomeIcon icon={faSearch} />
+				<FontAwesomeIcon className="inco" icon={faSearch} />
 			</form>
 			<p>{setTextValue}</p>
 		</div>

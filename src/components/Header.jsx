@@ -14,8 +14,8 @@ function Header() {
 				setTextValue={setTextValue}
 				setEfectiveValue={setEfectiveValue}
 			/>
-			<Link to="/login">
-				<h4>iniciar sesion</h4>
+			<Link className="linkInicioSesion" to="/login">
+				iniciar sesion
 			</Link>
 		</div>
 	);

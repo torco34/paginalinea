@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Contenedor from "../components/Contenedor";
+// import Contenedor from "../components/Contenedor";
+import "../assets/estyle/components/Home.css";
 
 const Home = () => {
 	const URL = "https://jsonplaceholder.typicode.com/posts";
@@ -21,12 +22,15 @@ const Home = () => {
 					{!todos
 						? "cargando...."
 						: todos.map((todo, index) => {
-								return <li>{todo.title}</li>;
+								return (
+									<li key={index}>
+										{todo.body}
+										{todo.title}
+									</li>
+								);
 						  })}
 				</ul>
 			</div>
-
-			<Contenedor cuerpo="Hola soy el cuerpo de la  esta pagina en pros si me ves en" />
 		</>
 	);
 };

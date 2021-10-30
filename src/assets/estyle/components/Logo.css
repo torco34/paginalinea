@@ -1,0 +1,22 @@
+.cuerpo {
+	background-image: linear-gradient(#d35400, #f5cba7, #2a4a6b);
+
+	height: 30px;
+	width: 100%;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+.cuerpo a {
+	list-style: none;
+	text-decoration: none;
+}
+
+.cuerpo .nem {
+	font-size: 18px;
+	color: #0b141d;
+}
+.cuerpo .nem2 {
+	font-size: 20px;
+	color: #ffff;
+}
