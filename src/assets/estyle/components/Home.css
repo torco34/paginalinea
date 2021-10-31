@@ -1,4 +1,4 @@
-li {
+.homeUl li {
 	display: grid;
 	margin: 10px;
 	width: 50%;

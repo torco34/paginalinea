@@ -8,8 +8,8 @@ const Lista = () => {
 			<Link to="/">
 				<h5>inicio</h5>
 			</Link>
-			<Link to="/rick">
-				<h5>Rick</h5>
+			<Link to="/Music">
+				<h5>Music</h5>
 			</Link>
 		</div>
 	);

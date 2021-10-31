@@ -17,20 +17,18 @@ const Home = () => {
 	}, []);
 	return (
 		<>
-			<div>
-				<ul>
-					{!todos
-						? "cargando...."
-						: todos.map((todo, index) => {
-								return (
-									<li key={index}>
-										{todo.body}
-										{todo.title}
-									</li>
-								);
-						  })}
-				</ul>
-			</div>
+			<ul className="homeUl">
+				{!todos
+					? "cargando...."
+					: todos.map((todo, index) => {
+							return (
+								<li key={index}>
+									{todo.body}
+									{todo.title}
+								</li>
+							);
+					  })}
+			</ul>
 		</>
 	);
 };

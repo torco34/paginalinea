@@ -4,8 +4,12 @@
 	background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
 .borderBlanco a {
-	color: #000;
+	color: #d35400;
 	margin: 10px;
 	list-style: none;
 	text-decoration: none;
+}
+
+.borderBlanco a:hover {
+	color: #537895;
 }
