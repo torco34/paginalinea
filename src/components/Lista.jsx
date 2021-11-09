@@ -11,6 +11,9 @@ const Lista = () => {
 			<Link to="/Music">
 				<h5>Music</h5>
 			</Link>
+			<Link to="/discover">
+				<h5>Discover</h5>
+			</Link>
 		</div>
 	);
 };

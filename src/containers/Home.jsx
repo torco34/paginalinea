@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 // import Contenedor from "../components/Contenedor";
-import "../assets/estyle/components/Home.css";
 
-const Home = () => {
+const Home = (tod) => {
 	const URL = "https://jsonplaceholder.typicode.com/posts";
 	const [todos, setTodos] = useState();
 	const consumirApi = async () => {

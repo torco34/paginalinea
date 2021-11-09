@@ -1,5 +1,5 @@
 .input {
-	background: #fff;
+	background: #e6f5ff;
 	width: 60vh;
 	outline: none;
 	border-radius: 5px;
@@ -14,5 +14,5 @@
 	margin-left: 22vh;
 }
 .inco {
-	/*font-size: 15px;*/
+	font-size: 15px;
 }

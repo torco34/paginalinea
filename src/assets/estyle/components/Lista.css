@@ -1,6 +1,7 @@
 .borderBlanco {
 	display: flex;
 	height: 40px;
+	/*width: 30%;*/
 	background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
 .borderBlanco a {

@@ -1,6 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import "../assets/estyle/components/Buscador.css";
 
 const Buscador = ({ setTextValue, setEfectiveValue }) => {
@@ -18,9 +18,8 @@ const Buscador = ({ setTextValue, setEfectiveValue }) => {
 					value={setTextValue}
 					onChange={buscarMusica}
 				/>
-				<FontAwesomeIcon className="inco" icon={faSearch} />
+				{/*<FontAwesomeIcon className="inco" icon={faSearch} />*/}
 			</form>
-			<p>{setTextValue}</p>
 		</div>
 	);
 };

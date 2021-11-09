@@ -4,7 +4,7 @@
 	grid-template-columns: 1fr 2fr 1fr;
 	grid-row-start: 1;
 	grid-row-end: 2;
-	/*background: red;*/
+	height: 100vh;
 }
 .contenedor li {
 	list-style: none;

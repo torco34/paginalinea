@@ -3,7 +3,7 @@ import React from "react";
 const MusicList = (props) => {
 	return (
 		<>
-			<ul>{props.children}</ul>;
+			<ul>{props.children}</ul>
 		</>
 	);
 };

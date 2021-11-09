@@ -1,14 +1,16 @@
 import React from "react";
 import "../assets/estyle/components/Header.css";
-import Logo from "../components/Logo";
+import LogoApp from "../components/LogoApp";
 import Buscador from "../components/Buscador";
 import { Link } from "react-router-dom";
 
-function Header() {
+function Header(props) {
 	const [setTextValue, setEfectiveValue] = React.useState("");
+	// const buscadorTodos = [];
+
 	return (
 		<div className="header">
-			<Logo />
+			<LogoApp />
 
 			<Buscador
 				setTextValue={setTextValue}
