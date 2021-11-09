@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/estyle/components/Header.css";
 import LogoApp from "../components/LogoApp";
-import Buscador from "../components/Buscador";
+import SearchInput from "../components/SearchInput";
 import { Link } from "react-router-dom";
 
 function Header(props) {
@@ -12,7 +12,7 @@ function Header(props) {
 		<div className="header">
 			<LogoApp />
 
-			<Buscador
+			<SearchInput
 				setTextValue={setTextValue}
 				setEfectiveValue={setEfectiveValue}
 			/>

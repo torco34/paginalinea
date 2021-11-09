@@ -2,7 +2,7 @@ import React from "react";
 import MusicList from "../components/MusicList";
 import MusicItem from "../components/MusicItem";
 import MusicContad from "../components/MusicContad";
-import Buscador from "../components/Buscador";
+import SearchInput from "../components/SearchInput";
 import "../assets/estyle/components/Music.css";
 const todoMusicFilter = [
 	{ text: "Romeo Santos", completed: true },
@@ -53,7 +53,7 @@ const Music = (props) => {
 						/>
 					))}
 				</MusicList>
-				<Buscador
+				<SearchInput
 					setTextValue={setTextValue}
 					setEfectiveValue={setEfectiveValue}
 				/>

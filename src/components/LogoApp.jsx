@@ -1,6 +1,5 @@
 import React from "react";
-import { Logo, GrupoLogo, IconoMusic } from "../assets/elemento/Logo";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Logo, GrupoLogo, IconoMusic } from "../assets/elementos/Logo";
 import { faMusic } from "@fortawesome/free-solid-svg-icons";
 const LogoApp = () => {
 	return (
