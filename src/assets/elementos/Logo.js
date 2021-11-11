@@ -13,7 +13,6 @@ const Logo = styled.div`
 		list-style: none;
 		color: ${colores.white};
 		font-size: 18px;
-		// padding: 0px 5px 0px 0px;
 		left: 10px;
 	}
 `;
@@ -29,6 +28,7 @@ const IconoMusic = styled(FontAwesomeIcon)`
 	padding 2px 4px ;
 	font-size: 20px;
 	border-radius: 4px;
+	
 `;
 
 export { Logo, GrupoLogo, IconoMusic };
