@@ -1,6 +1,6 @@
 import React from "react";
-import twitterIcon from "../assets/img/twitter-icon.png";
-import googleIcon from "../assets/img/google-icon.png";
+// import twitterIcon from "../assets/img/twitter-icon.png";
+// import googleIcon from "../assets/img/google-icon.png";
 import { Link } from "react-router-dom";
 import "../assets/estyle/components/Login.css";
 const Login = () => {
@@ -31,10 +31,10 @@ const Login = () => {
 				</form>
 				<div className="login__container--social-media">
 					<div>
-						<img src={googleIcon} /> Inicia sesión con Google
+						{/*<img src={googleIcon} /> Inicia sesión con Google*/}
 					</div>
 					<div>
-						<img src={twitterIcon} /> Inicia sesión con Twitter
+						{/*<img src={twitterIcon} /> Inicia sesión con Twitter*/}
 					</div>
 				</div>
 				<p className="login__container--register">

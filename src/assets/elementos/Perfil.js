@@ -13,9 +13,9 @@ const GrupoPerfil = styled.div`
 
 	img {
 		border-radius: 50%;
-		width: 30%;
+		width: 31%;
 		colo: red;
-		height: 10vh;
+		height: 9vh;
 		z-index: 90;
 	}
 `;
@@ -71,8 +71,22 @@ const IconFaUser = styled(FontAwesomeIcon)`
 	width: 4rem;
 	height: 4vh;
 	padding 1px 2px ;
-		font-size: 17px;
+	font-size: 17px;
 	
 `;
+const MusicaPer = styled.p`
+	position: absolute;
+	left: 12vh;
+	// text-align: center;
+	margin-top: -70px;
+	font-size: 12px;
+`;
 
-export { GrupoPerfil, Parrafo, GrupoIconos, IconAngleDown, IconFaUser };
+export {
+	GrupoPerfil,
+	Parrafo,
+	GrupoIconos,
+	IconAngleDown,
+	IconFaUser,
+	MusicaPer,
+};

@@ -5,6 +5,7 @@ import {
 	GrupoIconos,
 	IconAngleDown,
 	IconFaUser,
+	MusicaPer,
 } from "../assets/elementos/Perfil";
 import sacha from "../assets/img/images.jpeg";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -27,6 +28,7 @@ const Perfil = () => {
 					<p>Sacha Fines</p>
 					<IconAngleDown onClick={incono} icon={faAngleDown} />
 				</Parrafo>
+				<MusicaPer>Musica Personal</MusicaPer>
 				<GrupoIconos>
 					<div>
 						<IconFaUser icon={faUser} />
