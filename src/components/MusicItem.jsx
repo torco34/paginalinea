@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/estyle/components/MusicItem.css";
+// import "../assets/estyle/components/MusicItem.css";
 const MusicItem = (props) => {
 	const completed = () => {
 		console.log("soy el parrafo");

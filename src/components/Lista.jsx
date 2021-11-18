@@ -10,12 +10,11 @@ import {
 	faHistory,
 	faFileVideo,
 } from "@fortawesome/free-solid-svg-icons";
-import Perfil from "./Perfil";
+// import Perfil from "./Perfil";
 import { Link } from "react-router-dom";
 const Lista = () => {
 	return (
 		<>
-			<Perfil />{" "}
 			<GrupoLista>
 				<h6>Explore Music</h6>
 				<Linea>

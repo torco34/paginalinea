@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Home from "../containers/Home";
 import Login from "../containers/Login";
-import "../assets/estyle/components/Link.css";
+// import "../assets/estyle/components/Link.css";
 import Register from "../containers/Register";
 import Music from "../containers/Music";
 // import index from "../containers/Index";

@@ -9,7 +9,7 @@ const GrupoLista = styled.div`
 	height: 30rem;
 	padding: px;
 	width: 20%;
-	font-size: 11px;
+	font-size: 12px;
 	cursor: pointer;
 
 	p {
@@ -27,6 +27,8 @@ const GrupoLista = styled.div`
 	h6 {
 		font-size: 15px;
 		padding: 20px;
+		font-family: "Roboto", sans-serif;
+		width: 200px;
 	}
 	a {
 		text-decoration: none;

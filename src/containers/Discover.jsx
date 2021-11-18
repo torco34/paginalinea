@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/estyle/components/Discover.css";
+// import "../assets/estyle/components/Discover.css";
 import men from "../assets/img/descarga (1).jpeg";
 import musica from "../assets/img/descarga.jpeg";
 import azul from "../assets/img/azul.jpg";

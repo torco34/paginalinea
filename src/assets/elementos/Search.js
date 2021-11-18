@@ -12,7 +12,7 @@ const GrupoInput = styled.div`
 	position: relative;
 	left: 110px;
 	z-index: 90;
-	width: 30%;
+	width: 100%;
 `;
 const Input = styled.input`
 	width: 100%;
@@ -32,6 +32,9 @@ const Input = styled.input`
 const IconoSearch = styled(FontAwesomeIcon)`
 	position: absolute;
 	right: 10px;
+	text-aling: center;
+	top: 8px;
+	// border: solid 1px red;
 	color: ${colores.gray};
 `;
 

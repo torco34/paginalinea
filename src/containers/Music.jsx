@@ -3,7 +3,7 @@ import MusicList from "../components/MusicList";
 import MusicItem from "../components/MusicItem";
 import MusicContad from "../components/MusicContad";
 import SearchInput from "../components/SearchInput";
-import "../assets/estyle/components/Music.css";
+// import "../assets/estyle/components/Music.css";
 const todoMusicFilter = [
 	{ text: "Romeo Santos", completed: true },
 	{ text: "Ricardo Argona", completed: false },

@@ -10,7 +10,8 @@ const colores = {
 const GrupoPerfil = styled.div`
 	position: relative;
 	width: 20%;
-
+	top 30px;
+    cursor: pointer;
 	img {
 		border-radius: 50%;
 		width: 31%;
@@ -22,30 +23,33 @@ const GrupoPerfil = styled.div`
 const Parrafo = styled.p`
 	display: flex;
 	width: 13rem;
-	font-size: 14px;
+
 	height: 13vh;
 	padding 5px;
-
 	p {
-	position: relative;
+	    position: relative;
 		left: 3vh;
+		font-size: 15px;
 	}
 `;
 
 const GrupoIconos = styled.div`
 	position: relative;
 	top: -11vh;
-	width: 70%;
-	left: 13vh;
+	width: 170px;
+    border-top: 1px solid #fff;
+	border-radius: 4px;
+	left: 12vh;
 	height: 17vh;
 	cursor: pointer;
 	display: none;
-	background: ${colores.blue};
+	background: ${colores.black};
 	p {
 		position: absolute;
 		margin-top: -25px;
 		left: 30px;
 		font-size: 12px;
+
 	}
 	div{
 		padding 3px;
@@ -60,11 +64,10 @@ const GrupoIconos = styled.div`
 const IconAngleDown = styled(FontAwesomeIcon)`
 	position: relative;
 	list-style: none;
-	font-size: 20px;
+	font-size: 15px;
 	z-index: 90;
-	left: 6vh;
+	left: 4vh;
 	margin-top: 3px;
-	cursor: pointer;
 `;
 const IconFaUser = styled(FontAwesomeIcon)`
 	position: relative;
@@ -76,10 +79,12 @@ const IconFaUser = styled(FontAwesomeIcon)`
 `;
 const MusicaPer = styled.p`
 	position: absolute;
-	left: 12vh;
+	left: 13vh;
 	// text-align: center;
-	margin-top: -70px;
+	margin-top: -80px;
 	font-size: 12px;
+	width: 200px;
+	// border: solid 1px #fff;
 `;
 
 export {

@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/estyle/components/Register.css";
+// import "../assets/estyle/components/Register.css";
 import { Link } from "react-router-dom";
 const Register = () => {
 	return (

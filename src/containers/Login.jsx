@@ -2,7 +2,7 @@ import React from "react";
 // import twitterIcon from "../assets/img/twitter-icon.png";
 // import googleIcon from "../assets/img/google-icon.png";
 import { Link } from "react-router-dom";
-import "../assets/estyle/components/Login.css";
+// import "../assets/estyle/components/Login.css";
 const Login = () => {
 	return (
 		<div className="login">
